@@ -33,7 +33,7 @@ go build -o dist/deploynginx main.go
 ## Usage
 
 ```bash
-./deploynginx --version <nginx_version> --scale <replica_count> --kubeconfig </path/to/kubeconfig> --namespace <namespace>
+./dist/deploynginx --version <nginx_version> --scale <replica_count> --kubeconfig </path/to/kubeconfig> --namespace <namespace>
 ```
 
 - `--version`: Version of Nginx to deploy.
